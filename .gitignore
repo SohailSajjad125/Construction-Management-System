@@ -1,0 +1,86 @@
+# ================================
+# Node.js / Backend
+# ================================
+
+Backend/node_modules/
+Backend/.env
+Backend/.env.*
+!Backend/.env.example
+
+# Logs
+Backend/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime files
+*.pid
+*.seed
+*.pid.lock
+
+
+# ================================
+# Uploaded Files
+# ================================
+
+# Ignore uploaded user/project files
+Backend/uploads/*
+
+# Keep the uploads directory itself
+!Backend/uploads/.gitkeep
+
+
+# ================================
+# Frontend
+# ================================
+
+Frontend/node_modules/
+Frontend/dist/
+Frontend/build/
+
+# Frontend environment files
+Frontend/.env
+Frontend/.env.*
+!Frontend/.env.example
+
+
+# ================================
+# OS Files
+# ================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# ================================
+# IDE / Editors
+# ================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+# ================================
+# Temporary / Cache Files
+# ================================
+
+tmp/
+temp/
+.cache/
+
+# ================================
+# Coverage
+# ================================
+
+coverage/
+.nyc_output/
